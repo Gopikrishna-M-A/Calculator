@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sample.js"></script>
+    <link rel="stylesheet" href="style2.css">    
+    <title>calculator</title>
+</head>
+<body>
+    <section class="background">
+        <div class="body">
+            <section class="screen">
+                <input id="displayTwo" class="displayTwo" type="text" readonly name="" >
+                <input id="display" class="display" type="text" readonly name="" >
+
+            </section>
+            <section class="keypad-background">
+                <div class="row">
+                    <button id="clear" onclick="ButtonClicked(' ')">C</button>
+                    <button id="add" onclick="ButtonClicked('+')">+</button>
+                    <button id="minus" onclick="ButtonClicked('-')">-</button>
+                </div>
+
+                <div class="row">
+                    <button id="seven" onclick="ButtonClicked('7')">7</button>
+                    <button id="eight" onclick="ButtonClicked('8')">8</button>
+                    <button id="nine" onclick="ButtonClicked('9')">9</button>
+                </div>
+
+                <div class="row">
+                    <button id="four" onclick="ButtonClicked('4')">4</button>
+                    <button id="five" onclick="ButtonClicked('5')">5</button>
+                    <button id="six" onclick="ButtonClicked('6')">6</button>
+                </div>
+
+                <div class="row">
+                    <button id="one" onclick="ButtonClicked('1')">1</button>
+                    <button id="two" onclick="ButtonClicked('2')">2</button>
+                    <button id="three" onclick="ButtonClicked('3')">3</button>
+                </div>
+
+                <div>
+                    <button id="zero" onclick="ButtonClicked('0')">0</button>
+                    <button id="dot" onclick="ButtonClicked('.')">.</button>
+                    <button id="equal" onclick="ButtonClicked('=')">=</button>
+                </div>
+
+            </section>
+        </div>
+    </section>
+
+</body>
+</html>

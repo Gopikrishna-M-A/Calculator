@@ -1,0 +1,79 @@
+body{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.background{
+    
+   
+    
+    background-color: rgba(231, 231, 231, 0.836);
+    width: 300px;
+    height: 428px;
+}
+.body{
+    width:300px ; 
+}
+.screen{
+    height: 100px;
+    width: 300px;
+}
+.keypad-background{
+    width: 300px;
+    height: 400px;
+  
+}
+.row {
+    margin-bottom: 3px;
+    width: 300px;
+}
+button{
+    margin: 0px;
+    width: 97px;
+    height: 63px;
+    background-color:rgba(190, 190, 190, 0.781);
+    color: rgba(0, 0, 0, 0.719);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: #707070;
+    color: white;
+  }
+  .display{
+    
+      
+      color: white;
+      font-size: 40px;
+      text-align: right;
+      width: 296px;
+      height: 65px;
+      border: none;
+      background-color: rgb(117, 117, 117);
+    
+
+  }
+  .display:focus {
+    outline: none;
+  }
+  .displayTwo:focus{
+      outline: none;
+  }
+    
+
+  .displayTwo{
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    width: 296px;
+    height: 28px;
+    border: none;
+    background-color: rgb(117, 117, 117);
+  }
+  @media ((max-width: 600px))
